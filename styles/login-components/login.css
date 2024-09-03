@@ -1,0 +1,112 @@
+/* Basado en el código del hero*/
+.section__login {
+    background-image: url('/src/assets/digital-noise.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.section__login::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(5px);
+    filter: brightness(20%);
+    z-index: -1;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 1);
+    opacity: 0.5;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-void);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    width: 800px;
+}
+
+.login__title {
+    font-size: var(--size-2xl);
+    margin-bottom: 1rem;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 1.5rem;
+}
+
+.form__username,
+.form__password {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.05rem;
+    font-size: var(--size-sm);
+    gap: 0.6rem;
+}
+
+.form__input {
+    padding: 0.5rem 0.7rem 0.5rem 1rem;
+    outline: none;
+    border: 2px solid #373737;
+    font-size: var(--size-base);
+    border-radius: 4px;
+    color: var(--clr-light);
+    background-color: transparent;
+
+}
+
+.login__btn {
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    align-self: center;
+    width: 40%;
+}
+
+.register__go {
+    color: var(--clr-purple);
+    transition: color 0.3s;
+
+}
+
+.register__go:hover {
+    color: var(--clr-cyan);
+
+}
+
+@media (min-width: 640px) {
+    .login {
+        max-width: 65%;
+    }
+
+    .register__go {
+        font-size: var(--size-lg);
+    }
+}
+
+@media (min-width: 1024px) {
+    .login {
+        max-width: 600px;
+    }
+
+    .form__username,
+    .form__password {
+        font-size: var(--size-base);
+    }
+}
