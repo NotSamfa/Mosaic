@@ -1,16 +1,16 @@
-.content{
+.content {
     position: relative;
     width: calc(100% - 280px);
     margin-left: 280px;
     transition: all 0.3s ease;
 }
 
-.sidebar.close~.content{
+.sidebar.close~.content {
     width: calc(100% - 90px);
     margin-left: 90px;
 }
 
-.content nav{
+.content nav {
     height: 110px;
     padding: 0 40px 0 0;
     display: flex;
@@ -22,17 +22,17 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1000;
 
-    .arrow{
+    .arrow {
         cursor: pointer;
         margin-left: 30px;
     }
 
-    form{
+    form {
         max-width: 400px;
         width: 100%;
         margin: auto;
 
-        .form__input{
+        .form__input {
             display: flex;
             align-items: center;
             height: 40px;
@@ -40,8 +40,8 @@
             background-color: var(--clr-dark);
             transition: all 0.3s ease;
             border-radius: 7px;
-    
-            input{
+
+            input {
                 padding: 0 14px;
                 height: 100%;
                 border: none;
@@ -52,7 +52,7 @@
                 color: var(--clr-light);
                 font-size: var(--size-base);
             }
-    
+
             button {
                 width: 80px;
                 height: 100%;
@@ -68,13 +68,13 @@
         }
     }
 
-    
 
-    .profile{
+
+    .profile {
         display: flex;
         align-items: center;
 
-        img{
+        img {
             width: 60px;
             height: 60px;
             border-radius: 50%;
@@ -82,7 +82,7 @@
     }
 }
 
-.content nav::before{
+.content nav::before {
     content: "";
     position: absolute;
     width: 40px;
@@ -93,43 +93,43 @@
     box-shadow: -20px -20px 0 var(--clr-void);
 }
 
-@media screen and (max-width: 768px){
-    .content{
+@media screen and (max-width: 768px) {
+    .content {
         width: calc(100% - 240px);
         margin-left: 240px;
     }
 }
 
-@media screen and (max-width: 576px){
-    .content{
+@media screen and (max-width: 576px) {
+    .content {
         width: calc(100% - 90px);
         /* margin-left: 90px; */
     }
-    
-    .content nav form .form__input{
+
+    .content nav form .form__input {
         background-color: var(--clr-void);
 
-        input{
+        input {
             display: none;
         }
-        
-        button{
+
+        button {
             width: 50px;
             border-radius: 7px;
             transition: all 0.2s ease;
         }
     }
 
-    .content nav form.show .form__input{
-        
+    .content nav form.show .form__input {
+
         background-color: var(--clr-dark);
 
-        input{
+        input {
             display: block;
             width: 100%;
         }
 
-        button{
+        button {
             width: 60px;
             border-radius: 7px;
             background-color: #D32F2F;
