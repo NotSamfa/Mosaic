@@ -24,7 +24,7 @@
 }
 
 .login__button{
-    width: 230px;
+    width: 250px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -73,16 +73,16 @@
     font-weight: bold;
 }
 
-.login__button.wattpad{
-    gap: 8px;
+.login__button.mal{
+    margin-right: 200px;
     img{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
 }
 
-.login__button.wattpad:hover{
-    color: #ff6122;
+.login__button.mal:hover{
+    color: #2e51a2;
     border: 2px solid;
     font-weight: bold;
 }
