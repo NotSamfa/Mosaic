@@ -3,6 +3,8 @@ const mobileNav = () => {
     const mobileNav = document.querySelector('.mobile-nav');
     const mobileLinks = document.querySelectorAll('.mobile-nav__link');
 
+    const qryMedia = window.matchMedia('(min-width: 768px)');
+
     let isMobileMenuOpen = false;
 
     navBtn.addEventListener('click', () => {
@@ -27,6 +29,15 @@ const mobileNav = () => {
             document.body.style.overflowY = 'auto';
         });
     });
+
+
+    qryMedia.addListener(e => {
+        if (e.matches) {
+            mobileNav.style.display = 'none';
+            document.body.style.overflowY = 'auto';
+        }
+    });
+
 }
 
 export default mobileNav;

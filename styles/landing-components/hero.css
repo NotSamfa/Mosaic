@@ -1,5 +1,5 @@
 .hero {
-    background-image: url('/src/assets/tv.jpg');
+    background-image: url('/src/assets/backgrounds/tv.jpg');
     background-size: cover;
     background-position: center;
     display: flex;

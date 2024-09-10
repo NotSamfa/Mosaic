@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <title>Mosaic | Register</title>
+</head>
+
+<body>
+    <section class="section__register">
+        <div class="register">
+            <h2 id="terminal-text" class="register__title terminal__text"></h2>
+            <form class="register__form hidden">
+                <div class="form__username">
+                    <label for="username">Nombre de usuario</label>
+                    <input class="form__input" type="text" name="username" placeholder="Escribe tu nombre de usuario">
+                </div>
+
+                <div class="form__email hidden">
+                    <label for="email">Correo electrónico</label>
+                    <input class="form__input" type="email" name="email" placeholder="Escribe tu correo electrónico">
+                </div>
+
+                <div class="password-fields hidden">
+                    <div class="form__password">
+                        <label for="password">Contraseña</label>
+                        <input class="form__input" type="password" name="password" placeholder="Escribe tu contraseña">
+                    </div>
+
+                    <div id="form__confirm-password" class="form__password">
+                        <label for="confirm-password">Confirma tu contraseña</label>
+                        <input class="form__input" type="password" name="confirm-password"
+                            placeholder="Confirma tu contraseña">
+                    </div>
+                </div>
+
+                <button class="register__btn btn hidden">Registrarse</button>
+            </form>
+        </div>
+    </section>
+
+    <script type="module" src="/register/register.js"></script>
+</body>
+
+</html>
