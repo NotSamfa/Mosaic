@@ -5,4 +5,16 @@ import '../styles/utils.css'
 
 import progresiveRegister from '../src/utils/register/progresive-register'
 
+document.addEventListener('DOMContentLoaded', () => {
+    const registerButton = document.querySelector('.register__btn');
+
+    if (registerButton) {
+        registerButton.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            window.location.href = 'dashboard/index.html';
+        });
+    }
+});
+
 progresiveRegister();
