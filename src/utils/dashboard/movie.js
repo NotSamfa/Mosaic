@@ -1,6 +1,6 @@
 export async function fetchMoviesData() {
     try {
-        const response = await fetch('../src/utils/movies.json');
+        const response = await fetch('/movies.json');
         const data = await response.json();
         return data;
     } catch (error) {

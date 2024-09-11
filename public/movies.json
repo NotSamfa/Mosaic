@@ -1,0 +1,91 @@
+{
+    "movies": [
+      {
+        "title": "To All the Boys I've Loved Before",
+        "genre": "Romantic Comedy",
+        "release_year": 2018,
+        "director": "Susan Johnson",
+        "rating": "PG-13",
+        "description": "Lara Jean's high school life turns upside down when her secret love letters are mysteriously sent to all her crushes.",
+        "cast": ["Lana Condor", "Noah Centineo", "Janel Parrish"],
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjQ3NjM5MTAzN15BMl5BanBnXkFtZTgwODQzMDAwNjM@._V1_.jpg"
+      },
+      {
+        "title": "The Kissing Booth",
+        "genre": "Romantic Comedy",
+        "release_year": 2018,
+        "director": "Vince Marcello",
+        "rating": "TV-14",
+        "description": "A high school student finds herself face-to-face with her long-term crush at a kissing booth.",
+        "cast": ["Joey King", "Jacob Elordi", "Joel Courtney"],
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjQ0Mzk0OTE5MF5BMl5BanBnXkFtZTgwNDkyOTI0NTM@._V1_.jpg"
+      },
+      {
+        "title": "Someone Great",
+        "genre": "Romantic Comedy",
+        "release_year": 2019,
+        "director": "Jennifer Kaytin Robinson",
+        "rating": "R",
+        "description": "After a devastating breakup, a woman heads to New York City for one last hurrah with her two best friends.",
+        "cast": ["Gina Rodriguez", "Brittany Snow", "DeWanda Wise"],
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjI5MzQ0NjA5Ml5BMl5BanBnXkFtZTgwNjA1MTg1NzM@._V1_.jpg"
+      },
+
+      {
+        "title": "The Half of It",
+        "genre": "Romantic Drama",
+        "release_year": 2020,
+        "director": "Alice Wu",
+        "rating": "PG-13",
+        "description": "A shy, introverted student helps the school jock write love letters, but ends up falling for the same girl.",
+        "cast": ["Leah Lewis", "Daniel Diemer", "Alexxis Lemire"],
+        "duration": "104 min",
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2RlZmZkOTUtMDI5Ni00ZjZmLWI1OTItZmUwNWE4ZWVjNzFiXkEyXkFqcGdeQXVyMTkzODUwNzk@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "title": "Always Be My Maybe",
+        "genre": "Romantic Comedy",
+        "release_year": 2019,
+        "director": "Nahnatchka Khan",
+        "rating": "PG-13",
+        "description": "Childhood friends reconnect after 15 years apart, but their lives are worlds apart.",
+        "cast": ["Ali Wong", "Randall Park", "Keanu Reeves"],
+        "duration": "101 min",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMGM2NWFjYTctZjFiYy00YzIxLThhY2QtY2UxZTNmNjdjZTU0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      },
+      {
+        "title": "Set It Up",
+        "genre": "Romantic Comedy",
+        "release_year": 2018,
+        "director": "Claire Scanlon",
+        "rating": "TV-14",
+        "description": "Two overworked assistants team up to set up their demanding bosses on dates in the hopes of making their own jobs easier.",
+        "cast": ["Zoey Deutch", "Glen Powell", "Lucy Liu"],
+        "duration": "105 min",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTk0MDUyMzA1OF5BMl5BanBnXkFtZTgwNzA4NzE1NTM@._V1_.jpg"
+      },
+      {
+        "title": "The Holiday Calendar",
+        "genre": "Romantic Fantasy",
+        "release_year": 2018,
+        "director": "Bradley Walsh",
+        "rating": "PG",
+        "description": "A talented photographer inherits an antique advent calendar that seems to predict her future.",
+        "cast": ["Kat Graham", "Quincy Brown", "Ethan Peck"],
+        "duration": "95 min",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDc2ZjU5ODctZDFkMi00ODc1LWFkNTctOGNhNTdiYWE3NGZiXkEyXkFqcGc@._V1_.jpg"
+      },
+      {
+        "title": "The Perfect Date",
+        "genre": "Romantic Comedy",
+        "release_year": 2019,
+        "director": "Chris Nelson",
+        "rating": "TV-14",
+        "description": "A high school student creates an app to offer his services as a fake date to earn money for college.",
+        "cast": ["Noah Centineo", "Laura Marano", "Odiseas Georgiadis"],
+        "duration": "89 min",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGRhOWM5MzQtM2FlNi00Zjc5LThmZmUtZTI2NzY0MTA1YjM2XkEyXkFqcGdeQXVyODQwODA1MjY@._V1_.jpg"
+      }
+    ]
+  }
+  

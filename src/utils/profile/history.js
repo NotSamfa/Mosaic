@@ -1,6 +1,6 @@
 export async function fetchSongsData() {
     try {
-        const response = await fetch('../src/utils/songs.json');
+        const response = await fetch('/songs.json');
         const data = await response.json();
         return data;
     } catch (error) {
@@ -10,7 +10,7 @@ export async function fetchSongsData() {
 
 export async function fetchMoviesData() {
     try {
-        const response = await fetch('../src/utils/movies.json');
+        const response = await fetch('/movies.json');
         const data = await response.json();
         return data;
     } catch (error) {
