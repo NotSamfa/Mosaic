@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link
+        href="https://api.fontshare.com/v2/css?f[]=expose@400,500,700,900&f[]=satoshi@300,400,500,700,900&display=swap"
+        rel="stylesheet">
+    <title>Mosaic | Dashboard</title>
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="nav__icon">
+            <img src="/icon.svg" alt="Logo Mosaic">
+            <h1 class="hero__title glitch layers" data-text="Mosaic"><span>Mosaic</span></h1>
+        </a>
+        <ul class="side__menu">
+            <li><a href="#"><img src="/src/assets/icons/star.svg" alt="Sugerencias"> <span>Sugerencias</span></a></li>
+            <li class=""><a href="#"><img src="/src/assets/icons/movie-play.svg" alt="Películas"><span>
+                        Películas</span></a></li>
+            <li><a href="#"><img src="/src/assets/icons/music.svg" alt="Música"> <span>Música</span></a></li>
+            <li><a href="#"><img src="/src/assets/icons/book.svg" alt="Libros"> <span>Libros</span></a></li>
+        </ul>
+        <ul class="side__menu">
+            <li><a href="#" class="logout"><img src="/src/assets/icons/log-out.svg" alt="Cerrar sesión"> Cerrar
+                    sesión</a></li>
+        </ul>
+
+    </div>
+    <div class="content">
+        <nav>
+            <a class="arrow">
+                <img src="/src/assets/icons/left-arrow.svg" alt="Flecha">
+            </a>
+            <form action="#">
+                <div class="form__input">
+                    <input type="text" placeholder="Buscar...">
+                    <button type="submit" class="search__btn"><img id="searchIcon" src="/src/assets/icons/search.svg"
+                            alt="Buscar"></button>
+                </div>
+            </form>
+            <a href="/profile/index.html" class="profile">
+                <img src="/src/assets/icons/user-circle.svg" alt="Perfil">
+            </a>
+        </nav>
+
+
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Hola</h1>
+                    <span>Ya puedes empezar a elegir tus <strong>preferencias</strong> de entretenimiento</span>
+                </div>
+            </div>
+            <div class="main__content">
+
+                <div class="login__buttons">
+                    <a class="login__button spotify" id="showSpotify">
+                        <img src="/src/assets/icons/spotify-logo.svg" alt="Spotify">
+                        Login to Spotify
+                    </a>
+                    <div class="container__netflix">
+                        <a class="login__button netflix" id="showNetflix">
+                            <img src="/src/assets/icons/netflix-logo-icon.svg" alt="Netflix">
+                            Login to Netflix
+                        </a>
+                        <div id="movies" class="movie__container"></div>
+                    </div>
+
+                    <a class="login__button mal" id="showMal">
+                        <img src="/src/assets/icons/mal-icon.svg" alt="MyAnimeList">
+                        Login to MyAnimeList
+                    </a>
+
+
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+
+    <script type="module" src="/dashboard/dashboard.js"></script>
+</body>
+
+</html>

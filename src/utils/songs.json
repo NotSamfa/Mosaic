@@ -1,0 +1,19 @@
+{
+    "songs": [
+        {
+            "title": "Gasoline",
+            "artist": "The Weeknd",
+            "cover": "https://archive.org/download/mbid-6e97c587-7503-422f-9120-052ea6a1f90d/mbid-6e97c587-7503-422f-9120-052ea6a1f90d-31400393114_thumb500.jpg"
+        },
+        {
+            "title": "Supermassive Black Hole",
+            "artist": "Muse",
+            "cover": "https://archive.org/download/mbid-fe0bf96c-a56d-45e8-9c0f-6785022ef998/mbid-fe0bf96c-a56d-45e8-9c0f-6785022ef998-25004873802_thumb500.jpg"
+        },
+        {
+            "title": "Talk Talk",
+            "artist": "Charli XCX",
+            "cover": "https://archive.org/download/mbid-ab55ac76-eee5-4f89-ac14-7bb9aa837bc8/mbid-ab55ac76-eee5-4f89-ac14-7bb9aa837bc8-38462695827_thumb500.jpg"
+        }
+    ]
+}

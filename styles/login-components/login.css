@@ -1,6 +1,6 @@
 /* Basado en el código del hero*/
 .section__login {
-    background-image: url('/src/assets/digital-noise.jpg');
+    background-image: url('/src/assets/backgrounds/digital-noise.jpg');
     background-size: cover;
     background-position: center;
     display: flex;

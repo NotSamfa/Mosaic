@@ -1,5 +1,5 @@
 .hero {
-    background-image: url('/src/assets/tv.jpg');
+    background-image: url('/src/assets/backgrounds/tv.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -37,7 +37,7 @@
     position: relative;
     display: inline-block;
     z-index: 2;
-    letter-spacing: 10px;
+    letter-spacing: 7px;
     filter: drop-shadow(0 1px 3px);
 }
 
