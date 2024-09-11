@@ -32,8 +32,12 @@
     align-items: center;
     justify-content: space-between;
     gap: 2.5rem;
-    padding: 2rem;
+    padding: 2rem 5rem 2rem 2rem;
     text-align: center;
+}
+
+.history__item p {
+    margin: auto;
 }
 
 .history__cover {
