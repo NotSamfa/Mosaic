@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         registerButton.addEventListener('click', (event) => {
             event.preventDefault();
 
-            window.location.href = 'dashboard/index.html';
+            window.location.href = '/dashboard/index.html';
         });
     }
 });
