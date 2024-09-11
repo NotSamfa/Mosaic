@@ -1,4 +1,4 @@
-header nav{
+header nav {
     height: 110px;
     display: flex;
     align-items: center;
@@ -16,25 +16,59 @@ header nav{
 
     .profile {
         h2 {
-            font-size: var(--size-3xl);
+            font-size: var(--size-2xl);
             padding-right: 30px;
         }
     }
 }
 
-nav .nav__icon{
+nav .nav__icon {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-left: 2%;
 
     img {
-        margin-right: 30px;
         width: 40px;
         height: 40px;
     }
 
-    h1{
-        font-size: var(--size-4xl);
+    h1 {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .profile {
+        h2 {
+            font-size: var(--size-3xl);
+        }
+    }
+
+    nav .nav__icon {
+        img {
+            margin-right: 2rem;
+            width: 50px;
+            height: 50px;
+        }
+
+        h1 {
+            display: block;
+            font-size: var(--size-3xl);
+        }
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+    nav .nav__icon {
+
+        h1 {
+
+            font-size: var(--size-4xl);
+        }
     }
 }

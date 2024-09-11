@@ -7,9 +7,9 @@ import '../styles/landing-components/hero.css';
 import '../styles/landing-components/nav.css';
 import '../styles/utils.css';
 
-import { initializeSidebar } from '../src/utils/dashboard/sidebar.js';
-import { initializeSearch } from '../src/utils/dashboard/search.js';
-import { fetchMoviesData, displayMovies } from '../src/utils/dashboard/movie.js';
+import { initializeSidebar } from '../src/utils/dashboard/sidebar';
+import { initializeSearch } from '../src/utils/dashboard/search';
+import { fetchMoviesData, displayMovies } from '../src/utils/dashboard/movie';
 
 initializeSidebar();
 initializeSearch();

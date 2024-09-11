@@ -1,12 +1,13 @@
 import '../styles/normalize.css';
 import '../styles/style.css';
-import '../styles/landing-components/nav.css';
-import '../styles/utils.css';
 import '../styles/profile-components/nav.css';
-import '../styles/profile-components/main.css';
+import '../styles/profile-components/images.css';
+import '../styles/profile-components/history.css';
 import '../styles/landing-components/hero.css';
+import '../styles/utils.css';
 
-import { displaySongs, displayMovies, fetchSongsData, fetchMoviesData } from '../src/utils/profile/history.js';
+
+import { displaySongs, displayMovies, fetchSongsData, fetchMoviesData } from '../src/utils/profile/history';
 
 
 document.addEventListener('DOMContentLoaded', async function () {
