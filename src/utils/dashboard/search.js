@@ -7,9 +7,9 @@ export function initializeSearch() {
         searchForm.classList.toggle('show');
         if (window.innerWidth < 576) {
             if (searchForm.classList.contains('show')) {
-                img.src = '/src/assets/icons/x-icon.svg';
+                img.src = '/x-icon.svg';
             } else {
-                img.src = '/src/assets/icons/search.svg';
+                img.src = '/search.svg';
             }
         }
     });

@@ -22,7 +22,7 @@
 .history__content {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .history__item {
@@ -32,7 +32,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 2.5rem;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -57,8 +57,13 @@
 }
 
 @media (min-width: 1024px) {
+    .history__content {
+        gap: 3rem;
+    }
+
     .history__item {
         font-size: var(--size-lg);
+        padding: 3rem;
     }
 
     .history__cover {
