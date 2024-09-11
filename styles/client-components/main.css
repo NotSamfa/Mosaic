@@ -1,21 +1,21 @@
-.content main{
+.content main {
     width: 100%;
     padding: 50px 50px;
-    
-    .header{
+
+    .header {
         margin-bottom: 20px;
-        
+
         h1 {
             margin-bottom: 10px;
         }
 
-        span{
+        span {
             font-size: var(--size-regular);
             color: var(--clr-light);
         }
     }
 
-    .main__content{
+    .main__content {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -23,7 +23,11 @@
     }
 }
 
-.login__button{
+.login__buttons {
+    width: 100%;
+}
+
+.login__button {
     width: 250px;
     height: 60px;
     display: flex;
@@ -42,15 +46,16 @@
 }
 
 
-.login__button.spotify{
+.login__button.spotify {
     border: 2px solid;
+
     img {
         width: 30px;
         height: 30px;
     }
 }
 
-.login__button.spotify:hover{
+.login__button.spotify:hover {
     color: #1db954;
     /* background-color: #1db954; */
     border: 2px solid;
@@ -60,37 +65,38 @@
     } */
 }
 
-.login__button.netflix{
-    img{
+.login__button.netflix {
+    img {
         width: 30px;
         height: 30px;
     }
 }
 
-.login__button.netflix:hover{
+.login__button.netflix:hover {
     color: #e60815;
     border: 2px solid;
     font-weight: bold;
 }
 
-.login__button.mal{
+.login__button.mal {
     margin-right: 200px;
-    img{
+
+    img {
         width: 30px;
         height: 30px;
     }
 }
 
-.login__button.mal:hover{
+.login__button.mal:hover {
     color: #2e51a2;
     border: 2px solid;
     font-weight: bold;
 }
 
 
-.container__netflix.show{
+.container__netflix.show {
 
-    a{
+    a {
         display: none;
     }
 
@@ -103,7 +109,9 @@
         border-radius: 7px;
         padding: 10px;
         margin-top: 20px;
+        width: 110%;
     }
+
     .movie__card {
         background-color: var(--clr-void);
         border-radius: 7px;
@@ -114,18 +122,21 @@
         align-items: center;
         flex: 0 0 270px;
     }
+
     .movie__title {
         font-size: 1.5em;
         margin-bottom: 10px;
         color: var(--clr-light);
         text-align: center
     }
-    .movie__poster{
+
+    .movie__poster {
         width: 120px;
         border-radius: 7px;
         justify-content: center;
         margin: auto;
     }
+
     .movie__info {
         font-size: 0.9em;
         color: var(--clr-light);
@@ -135,15 +146,19 @@
 
 
 
-    
+
     /* Personalizar barra de desplazamiento */
     .movie__container::-webkit-scrollbar {
-        height: 6px; /* Altura de la barra de desplazamiento */
+        height: 6px;
+        /* Altura de la barra de desplazamiento */
     }
+
     .movie__container::-webkit-scrollbar-thumb {
-        background-color: #e60815; /* Color del "pulgar" de la barra */
+        background-color: #e60815;
+        /* Color del "pulgar" de la barra */
         border-radius: 7px;
     }
+
     .movie__container::-webkit-scrollbar-track {
         border-radius: 4px;
     }
