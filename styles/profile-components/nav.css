@@ -1,0 +1,40 @@
+header nav{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    position: sticky;
+
+    background-color: var(--clr-void);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+
+    .arrow__exit {
+        cursor: pointer;
+        padding-left: 30px;
+    }
+
+    .profile {
+        h2 {
+            font-size: var(--size-3xl);
+            padding-right: 30px;
+        }
+    }
+}
+
+nav .nav__icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 2%;
+
+    img {
+        margin-right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+
+    h1{
+        font-size: var(--size-4xl);
+    }
+}
