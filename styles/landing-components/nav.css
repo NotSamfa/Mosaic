@@ -10,11 +10,10 @@
 
 
 
- .nav__icon {
+ .nav__icon img{
      margin-left: 2rem;
      color: var(--clr-light);
-     width: var(--size-4xl);
-     height: var(--size-4xl);
+     width: 150%;
      cursor: pointer;
  }
 
